@@ -3,21 +3,21 @@ html {
 	-moz-text-size-adjust: none;
 	-ms-text-size-adjust: 100%;
 	color: #f8f8f2;
-	background: url(../images/fuu.png) fixed no-repeat bottom right #272822;
+	background: #272822;
 	font-family: sans-serif;
 }
 
 body{
-   text-align: center; /*Center Page for IE6*/
-   padding: 30px 20px 50px;
+	text-align: center; /*Center Page for IE6*/
+	padding: 30px 20px 50px;
 }
 
-.rekt{
-	color: #f92672;
+.fuu{
+	background: url(../images/fuu.png) fixed no-repeat bottom right #272822;
 }
 
-.have{
-	color: #f92672;
+.mugi{
+	background: url(../images/mugi.png) fixed no-repeat bottom right #272822;
 }
 
 .had{
@@ -28,8 +28,9 @@ body{
 	color: #ffffff;
 }
 
-.bold{
-	font-weight: bold;
+.center{
+	text-align: center;
+
 }
 
 a, a:link, a:visited, a:active, a:focus{
@@ -42,10 +43,18 @@ a:link {
 }
 
 a:hover{
-	color: #66d9ef;
-	background-color: #49483e;
+	color: #FD971F;
 	text-decoration: none;
 }
+
+h1,h2,h3,h4,h5,h6 {
+	color: #66d9ef;
+}
+
+strong {
+	color: #f9f8f5;
+}
+
 
 code {
 	font-family: monospace;
@@ -55,7 +64,6 @@ code {
    width: 720px;
    margin: 0 auto;
    text-align: left;
-    
 }
 
 @media screen and (max-width: 720px) {
