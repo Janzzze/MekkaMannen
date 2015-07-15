@@ -1,15 +1,44 @@
 html {
 	-webkit-text-size-adjust: 100%;
 	-moz-text-size-adjust: none;
-	-ms-text-size-adjust: 100%;
-	color: #f8f8f2;
-	background: #272822;
-	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;	
 }
 
 body{
-	text-align: center; /*Center Page for IE6*/
+	color: #f8f8f2;
+	background: #272822;
+	font-family: sans-serif;
+	line-height: 1.4;
 	padding: 30px 20px 50px;
+	text-align: center; /*Center Page for IE6*/
+}
+
+a, a:link, a:visited, a:active, a:focus{
+	color: #f92672;
+	text-decoration: none;
+}
+
+a:link {
+	-webkit-tap-highlight-color: #f92672;
+}
+
+a:hover{
+	color: #FD971F;
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #66d9ef;
+	line-height: 1.2;
+}
+
+strong {
+	color: #f9f8f5;
+}
+
+
+code {
+	font-family: monospace;
 }
 
 .fuu{
@@ -21,43 +50,11 @@ body{
 }
 
 .had{
-	color: #909090;
-}
-
-.want{
-	color: #ffffff;
+	color: #a5a599;
 }
 
 .center{
 	text-align: center;
-
-}
-
-a, a:link, a:visited, a:active, a:focus{
-	color: #f92672;
-	text-decoration: none;
-}
-
-a:link {
-	-webkit-tap-highlight-color: #a6e22e;
-}
-
-a:hover{
-	color: #FD971F;
-	text-decoration: none;
-}
-
-h1,h2,h3,h4,h5,h6 {
-	color: #66d9ef;
-}
-
-strong {
-	color: #f9f8f5;
-}
-
-
-code {
-	font-family: monospace;
 }
 
 #container {
@@ -72,5 +69,11 @@ code {
  	}
 }
 
-::-moz-selection { background: #a6e22e;; color:#fff; text-shadow: none; }
-::selection { background: #a6e22e; color:#fff; text-shadow: none; }
+::-moz-selection { background: #a6e22e;; color:#f8f8f2; text-shadow: none; }
+::selection { background: #a6e22e; color:#f8f8f2; text-shadow: none; }
+
+/* 
+Good colors to use not currently used
+#FFE792
+#AE81FF
+*/
