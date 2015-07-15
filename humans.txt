@@ -9,8 +9,3 @@
 
 # THANKS
 	Niklas Östlund
-
-# TECHNOLOGY COLOPHON
-	HTML5, CSS3
-	Normalize.css, jQuery, Modernizr
-	Sublimetext, Photoshop, GitHub
