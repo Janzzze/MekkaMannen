@@ -4,10 +4,14 @@
   $i = rand(0, count($bg)-1); // Generera random storlek i tidigare nämnd array, detta kommer inte vara nödvändigt sålänge vi har >=3 bilder 
   $selectedBg = "$bg[$i]"; // Här har den tagit ett random nummer från tidigare line och visar bilden som valts
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head <style type="text/css">
+body{
+background: url(../images/<?php echo $selectedBg; ?>) no-repeat;
+}
+</style>
+	>
 	<meta charset="utf-8">
 	<title>MekkaMannen</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
