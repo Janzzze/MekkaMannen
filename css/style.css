@@ -46,7 +46,8 @@ code {
 }
 
 .mugi{
-	background: url(../images/mugi.png) fixed no-repeat bottom right #272822;
+	/*background: url(../images/mugi.png) fixed no-repeat bottom right #272822;*/
+	background: url(../images/<?php echo $selectedBg; ?>) no-repeat bottom right #272822;
 }
 
 .had{
