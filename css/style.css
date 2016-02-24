@@ -36,17 +36,8 @@ strong {
 	color: #f9f8f5;
 }
 
-
 code {
 	font-family: monospace;
-}
-
-.fuu{
-	background: url(../images/fuu.png) fixed no-repeat bottom right #272822;
-}
-
-.mugi{
-	background: url(../images/mugi.png) fixed no-repeat bottom right #272822;
 }
 
 .had{
